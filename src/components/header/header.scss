@@ -1,0 +1,97 @@
+.topbar {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  .topbar_logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  .topbar-social {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .topbar_nav a {
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .topbar {
+    .topbar_nav {
+      font-size: 14px;
+      line-height: 20px;
+      font-family: Roboto-Regular;
+      color: #000000;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-grow: 1;
+    }
+
+    .topbar_nav a {
+      transition: opacity 0.3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .topbar {
+    .topbar_nav a {
+      margin: 0 60px;
+      transition: opacity 0.3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    .topbar_nav {
+      font-size: 14px;
+      line-height: 20px;
+      font-family: Roboto-Regular;
+      color: #000000;
+    }
+  }
+}
+
+.icon::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  margin: 0 5px;
+  background-image: url(./../../assets/svg/twitter.svg);
+}
+
+.icon {
+  transition: opacity 0.3s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.icon_twitter::after {
+  background-image: url(./../../assets/svg/twitter.svg);
+}
+
+.icon_facebook::after {
+  background-image: url(./../../assets/svg/facebook.svg);
+}
+.icon_linkedin::after {
+  background-image: url(./../../assets/svg/linkedin.svg);
+}

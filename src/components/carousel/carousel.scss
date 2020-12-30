@@ -1,0 +1,73 @@
+.carousel__nav {
+  position: absolute;
+  width: 20px;
+  height: 39px;
+  top: 50%;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel__nav.prev {
+  background: url(./../../assets/svg/prev.svg);
+  right: auto;
+  left: 100px;
+}
+
+.carousel__nav.next {
+  background: url(./../../assets/svg/next.svg);
+  right: 100px;
+  left: auto;
+}
+
+.carousel > div {
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+
+  .carousel_text {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 150px;
+    text-align: left;
+    color: #fff;
+    font-family: Montserrat-Bold;
+  }
+
+  .carousel_text h1 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  %btn {
+    font-family: Montserrat-Bold;
+    font-size: 22px;
+    line-height: 29px;
+    background: gray;
+    color: #fff;
+    transition: opacity 0.3s;
+    border: none;
+    padding: 0px 25px;
+    border-radius: 25px;
+    height: 51px;
+    &:hover {
+      background: lighten(gray, 4);
+    }
+  }
+  .btn_danger {
+    margin-right: auto;
+    @extend %btn;
+    font-family: Montserrat-Bold;
+    background: #d43d40;
+    &:hover {
+      background: lighten(#d43d40, 4);
+      color: darken(#fff, 4);
+    }
+  }
+}

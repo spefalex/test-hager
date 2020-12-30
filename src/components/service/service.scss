@@ -1,0 +1,38 @@
+.service {
+  display: block;
+  padding: 60px;
+  color: #404040;
+  font-family: Montserrat-Medium;
+
+  .service_title {
+    margin: 0px 0px;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+.service_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .service_item {
+    width: 267px;
+    padding: 0 7px;
+    text-align: center;
+    margin-top: 60px;
+    img {
+      width: auto;
+    }
+  }
+  h6 {
+    font-size: 22px;
+    line-height: 29px;
+    margin: 15px;
+  }
+  p {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

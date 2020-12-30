@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="83px" height="83px" viewbox="0 0 83 83" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Logo" transform="translate(1.5 1.5)">
+    <path d="M0 0L80 0L80 80L0 80L0 0Z" id="Rectangle" fill="#EA4235" fill-rule="evenodd" stroke="none" />
+    <g id="lines" transform="translate(18 24)">
+      <path d="M20.3824 0.611111L0.151251 21.8503" transform="translate(2 0)" id="Line" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0.615385 2L31.5751 2" transform="translate(0 29)" id="Line-2" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0L17 19" transform="translate(27 9)" id="Line-3" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>
